@@ -1,0 +1,48 @@
+.c
+{ 
+  
+  width: 30%;
+  padding: 14px;
+  margin-left:500px ;
+  font-family: "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";
+  font-size: larger;
+  margin-top: 70px;
+}
+button
+{
+  padding: 10px;
+  margin-left: 10px;
+  background-color:snow;
+  font-size: medium;
+  color: black;
+}
+button:hover
+{
+    background-color:grey;
+    color: white;
+}
+.cs
+{
+  width: 500px;
+  background-color: rgba(255,255,255,0.3);
+  margin-left: 5px;
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+  color: black;
+  position: relative;
+  animation: mymove 3s;
+  animation-fill-mode: forwards;
+  height: 250px;
+  
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 450px; }
+}
+#t{
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+}
